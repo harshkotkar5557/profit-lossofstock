@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #292947;
+}
+.container{
+    margin: 10vh auto;
+    width: 70%;
+    height: 65vh;
+    box-shadow: 5px -5px 5px 10px #655858;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: white;
+}
+.input_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input_section label{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+.input_section input{
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    border: 3px solid gray;
+}
+.input_section button{
+    background: grey;
+    margin: 1rem;
+    border: none;
+    padding: 0.5rem 1em;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    color: white;
+    letter-spacing: 1px;
+}
+.input_section button:hover{
+    background: rgb(160, 158, 158);
+    color:black
+}
+.result_section{
+    margin-top: 2rem;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+/* hiding arrows from input section */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
