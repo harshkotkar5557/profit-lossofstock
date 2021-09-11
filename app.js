@@ -32,7 +32,7 @@ submit_button.addEventListener('click', ()=>{
         result_section.innerHTML = `Your loss is -${diff_in_rupees} rups and -${diff_in_percentage.toFixed(2)}%`
     }else{
         const diff_in_rupees = current_total - intial_total 
-        const diff_in_percentage = ((intial_total + diff_in_rupees ) / intial_total)*100
+        const diff_in_percentage = (((intial_total + diff_in_rupees ) / intial_total)*100)-100
         result_section.style['margin-top']='3vh'
         result_section.innerHTML = `Your profit is ${diff_in_rupees} rups and ${diff_in_percentage.toFixed(2)}%`
     }
