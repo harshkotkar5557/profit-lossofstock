@@ -63,3 +63,27 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.footer{
+    background-color:transparent;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer ul li{
+    padding: 1.2rem 1rem;
+    list-style-type: none;
+   
+}
+.footer ul li a{
+    
+    color: white;
+    text-decoration: none;
+}
