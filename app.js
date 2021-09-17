@@ -9,7 +9,7 @@ const result_section = document.getElementById('result_section')
 submit_button.addEventListener('click', ()=>{
     result_section.innerHTML=''
     if(!intial_prize.value  || !current_price.value || !quantity.value){
-        result_section.style['color']='red'
+        result_section.style['color']='black'
         result_section.style['margin-top']='3vh'
         return   result_section.innerHTML = 'Opps..Enter valid data'
     }
@@ -18,7 +18,7 @@ submit_button.addEventListener('click', ()=>{
         return   result_section.innerHTML = 'No gain and no loss'
     }
     if(intial_prize.value == 0 || current_price.value  ==0 || quantity.value ==0){
-        result_section.style['color']='red'
+        result_section.style['color']='black'
         result_section.style['margin-top']='3vh'
         return   result_section.innerHTML = 'Opps..Enter valid data'
     }

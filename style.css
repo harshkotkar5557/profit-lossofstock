@@ -8,12 +8,21 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background: #dfdfdf;
 }
+.title{
+    margin: 1rem 1rem 0 1rem;
+    color: white;
+    background: #3781ba;
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
 .container{
-    background: #FFB319;
-    margin: 10vh auto;
+    color: white;
+    background: #3781ba;
+    margin: 8vh auto;
     width: 70%;
     height: 65vh;
-    box-shadow: 1px 1px 5px 10px #dfdada;
+    box-shadow: 1px 1px 5px 3px #939391;
     border-radius: 10px;
     padding: 1.5rem 2rem;
     text-align: center;
@@ -32,10 +41,10 @@ body{
     outline: none;
     border-radius: 0.2rem;
     padding: 0.3rem;
-    border: 3px solid gray;
+    border: none;
 }
 .input_section button{
-    background: grey;
+    background: black;
     margin: 1rem;
     border: none;
     padding: 0.5rem 1em;
@@ -45,13 +54,12 @@ body{
     letter-spacing: 1px;
 }
 .input_section button:hover{
-    background: rgb(160, 158, 158);
-    color:black
+    background: rgb(41, 41, 41);
 }
 .result_section{
     margin-top: 2rem;
     font-weight: 700;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid rgb(228, 224, 224);
     width: 50%;
     margin: 0 auto;
     padding-bottom: 5px;
