@@ -17,7 +17,7 @@ submit_button.addEventListener('click', ()=>{
         result_section.style['margin-top']='3vh'
         return   result_section.innerHTML = 'No gain and no loss'
     }
-    if(intial_prize.value == 0 || current_price.value  ==0 || quantity.value ==0){
+    if(intial_prize.value <= 0 || current_price.value  <=  0 || quantity.value <= 0){
         result_section.style['color']='black'
         result_section.style['margin-top']='3vh'
         return   result_section.innerHTML = 'Opps..Enter valid data'
