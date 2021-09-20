@@ -95,3 +95,7 @@ input::-webkit-inner-spin-button {
     color: black;
     text-decoration: none;
 }
+.img_loading{
+    display: none;
+    margin: 0 auto;
+}
