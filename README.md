@@ -1,4 +1,11 @@
 # profit-lossofstock
 
 Simple application to calculate profit or loss and percentage of Stocks you purchased
-Take three input : Buy Prize , quantitiy , sell prize and calulate the results for you.
+Take three input : 
+1. Buy Prize 
+2. Quantitiy 
+3. Sell prize 
+
+Final result : loss an profit you made
+
+check it :https://calciforprofitloss.netlify.app/
