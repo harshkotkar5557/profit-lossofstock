@@ -1,6 +1,7 @@
 # profit-lossofstock
 
-Simple application to calculate profit or loss and percentage of Stocks you purchased
+Simple application to calculate profit or loss and percentage of Stocks you purchased.
+
 Take three input : 
 1. Buy Prize 
 2. Quantitiy 
