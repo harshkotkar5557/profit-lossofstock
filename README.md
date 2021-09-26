@@ -8,4 +8,4 @@ Take three input :
 
 Final result : loss an profit you made
 
-check it :https://calciforprofitloss.netlify.app/
+check out here: https://calciforprofitloss.netlify.app/
